@@ -20,11 +20,12 @@ On Ubuntu and Debian based systems, you can install the dependencies by running 
 # :pager: How can i run it :question:
 Once you have all the dependencies installed, you can compile the script by running the following command in the terminal:
     
-    g++ -o port_scanner port_scanner.cpp -lncurses -lpthread
+    g++ -o port_scanner.run port_scanner.cpp -lncurses -lpthread
     
 Then you can run the compiled binary by typing:
     
-    ./port_scanner
+    chmod +x port_scanner.run
+    ./port_scanner.run
     
 # :satellite: Contacts :satellite:
 Discord: `Abra#1568`<br />
