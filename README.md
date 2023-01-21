@@ -18,6 +18,7 @@ On Ubuntu and Debian based systems, you can install the dependencies by running 
     sudo apt-get install libboost-all-dev
 
 # :pager: How can i run it :question:
+You will be prompted to enter the target IP address and port range to scan. Once you have entered this information, the script will begin scanning the ports and display the results on the screen.
 Once you have all the dependencies installed, you can compile the script by running the following command in the terminal:
     
     g++ -o port_scanner.run port_scanner.cpp -lncurses -lpthread
@@ -25,7 +26,7 @@ Once you have all the dependencies installed, you can compile the script by runn
 Then you can run the compiled binary by typing:
     
     chmod +x port_scanner.run
-    ./port_scanner.run
+    ./port_scanner.run <target_ip_address>
     
 # :satellite: Contacts :satellite:
 Discord: `Abra#1568`<br />
@@ -34,5 +35,16 @@ Our discord server: [Click Me](https://discord.gg/R6fVaQS5We "Click Me")
 # :computer: System Requirements :computer:
 To run this script, you will need a system with a C++ compiler (such as g++) and the ncurses and pthread libraries installed. Additionally, you will need a Unix-based operating system, as the script uses POSIX threads and signal blocking functions.
 
+# Created on this platform
 
-You will be prompted to enter the target IP address and port range to scan. Once you have entered this information, the script will begin scanning the ports and display the results on the screen.
+<a href="https://linuxmint.com/" target="_blank"><img src="https://linuxmint.com/web/img/logo-mono.svg" alt="Patreon" height="174" width="310"></a></br>
+
+
+# :credit_card: Donation :inbox_tray:
+
+Loved :two_hearts: the project:question: You can :star2:support:star2: me and my team on this sites:point_down::point_down::point_down:
+
+<a href="https://www.patreon.com/plexusnetworksystem" target="_blank"><img src="https://raw.githubusercontent.com/PlexusNetworkSystem/PlexusNetworkSystem/main/patreon.png" alt="Patreon" height="174" width="174"></a></br>
+<a href="http://www.bynogame.com/tr/destekle/plexus-system" target="_blank"><img src="https://images.bynogame.com/images/anlatim/bynogame-logo-siyah2.png" alt="ByNoGame" height="123" width="300"></a>
+------------ 
+Developed by [Abra](https://github.com/Aegeansword "Abra")
